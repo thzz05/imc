@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Web App - Calculadora de IMC</title>
+    <link rel="shortcut icon" href="hal512.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Progressive Web App - Calculadora de IMC</h1>
+    
+    <h2>Calculadora de IMC</h2>
+    <form>
+        <label for="txtPeso">Peso</label>
+        <input type="number" id="txtPeso">
+        
+        <label for="txtAltura">Altura</label>
+        <input type="number" id="txtAltura">
+
+        <label for="txtIMC">Seu IMC:</label>
+        <input type="text" id="txtIMC" readonly>
+        
+        <button type="button" onclick="calcularIMC()">Calcular</button>
+        <button type="button" onclick="limparCampos()">Limpar</button>
+        
+    </form>
+
+    <script src="media.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then((registration) => {
+                    console.log('Service Worker registrado com escopo: ', registration.scope);
+                }).catch((error) => {
+                    console.log('Falha no registro do Service Worker: ', error);
+                });
+        }
+    </script>
+</body>
+</html>

@@ -2,7 +2,7 @@
   "name": "Progressive Web App",
   "short_name": "PWA",
   "description": "Uma aplicação web progressiva de exemplo",
-  "start_url": "/imc/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",

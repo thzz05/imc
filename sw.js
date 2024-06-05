@@ -35,7 +35,6 @@ self.addEventListener('fetch', (event) => {
       })
   );
 });
-
 // Ativando o Service Worker e removendo caches antigos
 self.addEventListener('activate', (event) => {
   const cacheWhitelist = [CACHE_NAME];

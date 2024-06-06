@@ -56,3 +56,6 @@ button:hover {
     font-weight: bold;
     color: #007bff;
 }
+#imgTable {
+    margin-left: 50px;
+}

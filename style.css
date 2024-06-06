@@ -56,6 +56,56 @@ button:hover {
     font-weight: bold;
     color: #007bff;
 }
+
 #imgTable {
     margin-left: 50px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    label {
+        margin-left: 10px;
+    }
+
+    input[type="number"], input[type="text"], button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #imgTable {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 10px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+    }
+
+    label {
+        margin-left: 5px;
+    }
+
+    input[type="number"], input[type="text"], button {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #imgTable {
+        margin-left: 10px;
+    }
 }

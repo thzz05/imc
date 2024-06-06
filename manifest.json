@@ -1,5 +1,5 @@
 {
-  "name": "Progressive Web App",
+  "name": "aplicativo",
   "short_name": "PWA",
   "description": "Uma aplicação web progressiva de exemplo",
   "start_url": "/imc/",

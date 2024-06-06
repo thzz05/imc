@@ -6,7 +6,7 @@ const URLS_TO_CACHE = [
   '/index.html',
   '/hal192.png',
   '/tabelaimc.png',
-  '/tabelaimc',
+  '/tabelaimc.png',
   '/media.js',
   '/style.css' // Adicionei um possivel arquivo de estilo CSS que você pode ter
 ];

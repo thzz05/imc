@@ -7,7 +7,7 @@ const URLS_TO_CACHE = [
   '/hal192.png',
   '/hal512.png',
   '/media.js',
-  '/style.css' // Adicionei um possível arquivo de estilo CSS que você pode ter
+  '/style.css' // Adicionei um possivel arquivo de estilo CSS que você pode ter
 ];
 
 // Instalando o Service Worker e armazenando os arquivos no cache
@@ -35,6 +35,7 @@ self.addEventListener('fetch', (event) => {
       })
   );
 });
+
 // Ativando o Service Worker e removendo caches antigos
 self.addEventListener('activate', (event) => {
   const cacheWhitelist = [CACHE_NAME];

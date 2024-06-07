@@ -5,7 +5,7 @@
   "start_url": "/imc/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#999999",
+  "theme_color": "#022222",
   "icons": [
     {
       "src": "hal192.png",
@@ -13,8 +13,8 @@
       "type": "image/png"
     },
     {
-      "src": "tabelaimc.png",
-      "sizes": "301x197",
+      "src": "hal512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]

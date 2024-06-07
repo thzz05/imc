@@ -4,8 +4,8 @@
   "description": "Uma aplicação web progressiva de exemplo",
   "start_url": "/imc/",
   "display": "standalone",
-  "background_color": "#444444",
-  "theme_color": "#022222",
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
   "icons": [
     {
       "src": "hal192.png",

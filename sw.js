@@ -9,7 +9,6 @@ const URLS_TO_CACHE = [
   '/media.js',
   '/style.css' // Adicionei um possivel arquivo de estilo CSS que você pode ter
 ];
-
 // Instalando o Service Worker e armazenando os arquivos no cache
 self.addEventListener('install', (event) => {
   event.waitUntil(
